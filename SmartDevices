@@ -1,0 +1,31 @@
+public class SmartDevices {
+
+@Override
+  public String toString() {
+
+    return this.modelo + "" + this.tipo_cargador + "" + this.memoria + "" + this.bluetooth + "" + this.wifi + "" + this.memRam;
+}
+    String modelo;
+    String tipo_cargador;
+    double memoria;
+    boolean bluetooth;
+    boolean wifi;
+    int memRam;
+
+    public SmartDevices(){
+
+    }
+
+    public SmartDevices(String modelo, String tipo_cargador, double memoria, boolean bluetooth, boolean wifi, int memRam){
+        this.modelo = modelo;
+        this.tipo_cargador = tipo_cargador;
+        this.memoria = memoria;
+        this.bluetooth = bluetooth;
+        this.wifi = wifi;
+        this.memRam = memRam;
+
+    }
+
+
+
+}
