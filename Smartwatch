@@ -1,0 +1,20 @@
+public class Smartwatch extends SmartDevices {
+
+  String marcaWatch;
+  String mat_correa;
+
+  public String toString() {
+
+    return   this.mat_correa + "" + this.marcaWatch + "" +this.modelo + "" + this.tipo_cargador + "" + this.memoria + "" + this.bluetooth + "" + this.wifi + "" + this.memRam;
+  }
+
+  public Smartwatch(){
+
+  }
+
+  public Smartwatch(String marcaWatch, String mat_correa, String modelo, String tipo_cargador, double memoria, boolean bluetooth, boolean wifi, int memRam){
+    this.marcaWatch = marcaWatch;
+    this.mat_correa = mat_correa;
+
+  }
+}
