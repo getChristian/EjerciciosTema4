@@ -1,0 +1,17 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        SmartDevices pc = new SmartDevices("HP","Universal", 1000, true, true, 16);
+
+        SmartPhone iphone =  new SmartPhone("Apple","iPhone","11", "Tipo C",500, true,true,16);
+
+        Smartwatch xiaomi = new Smartwatch("Xiaomi","Cuero","Redmi","Tipo C",80, true, false, 8);
+
+        System.out.println(pc.toString());
+
+        System.out.println(xiaomi.toString());
+
+        System.out.println(iphone.toString());
+    }
+}
