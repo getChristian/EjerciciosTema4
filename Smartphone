@@ -1,0 +1,21 @@
+public class SmartPhone extends SmartDevices{
+
+    String marca;
+    String modPhone;
+
+    public String toString() {
+
+        return  this.marca + "" + this.modelo + "" + this.tipo_cargador + "" + this.memoria + "" + this.bluetooth + "" + this.wifi + "" + this.memRam;
+    }
+
+
+    public SmartPhone(){
+
+    }
+
+    public SmartPhone(String marca, String modPhone, String modelo,String tipo_cargador, double memoria, boolean bluetooth, boolean wifi, int memRam){
+        this.marca = marca;
+        this.modPhone = modPhone;
+
+    }
+}
